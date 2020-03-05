@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "PoetsenOne-Regular";
+  src: url("PoetsenOne-Regular.ttf");
+}
+.slider{
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-left: 300px;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 100%;
+  animation: cambio 15s infinite alternate;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  height: 50%
+}
+@keyframes cambio {
+	0% {margin-left: 15%;}
+	20% {margin-left: 15%;}
+	25% {margin-left: -85%;}
+	45% {margin-left: -85%;}
+	50% {margin-left: -180%;}
+	70% {margin-left: -180%;}
+/*
+	33%{margin-left: 0;}
+	66%{margin-left: -90%;}
+	99%{margin-left: -180%;}*/
+
+}
+#contenedor{
+width : 960px;
+margin:auto;
+margin-top: 20px;
+margin-bottom:20px;
+}	
+
+header{
+	height:150px;
+	background:#F5CAA2;
+}
+header h1{
+font-size:50px;
+text-align:center;
+line-height: 150px;
+}
+#contenido{
+width:1200px;
+height:auto;
+float:left;
+background:#FAA3A3;
+margin-top:-310px;
+margin-right:10px;
+margin-left: 100px;
+margin-bottom: 100px;
+}
+aside{
+
+	width:250px;
+	height:500px;
+	background:#F5CAA2;
+	margin-top:10px;
+	float:right;
+
+}
+footer{
+	background:#000;
+	clear:both;
+}
+.redes{
+	background: #B1B1B1;
+	height: 55px;
+}
+.redes ul{
+	 list-style-type: none;
+  overflow: hidden;
+}
+.redes li{
+	display: inline;
+	background: #838383;
+	color: white;
+}
+.redes a{
+	color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+/* ----------------------- */
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  flex: 1 1 20px;
+  padding-left: 23px;
+}
+.grid{
+
+	 display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.icon{
+	border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+background-color:#FAA3A3;
+}
+
+.grid2{
+
+	 display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.titulo {
+	color: white;
+	font-family: 'PoetsenOne-Regular', cursive;
+}
