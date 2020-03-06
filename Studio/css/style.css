@@ -54,11 +54,15 @@ line-height: 150px;
 width:1200px;
 height:auto;
 float:left;
-background:#FAA3A3;
 margin-top:-310px;
 margin-right:10px;
 margin-left: 100px;
 margin-bottom: 100px;
+position: relative;
+}
+.contenido-services{
+
+background:#FAA3A3;
 }
 aside{
 
